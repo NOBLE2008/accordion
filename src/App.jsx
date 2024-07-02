@@ -1,6 +1,7 @@
+import { useState } from 'react';
 import './App.css'
 
-const faqs = [
+const [faqs, setFaqs] = useState([
   {
     title: "Where are these chairs assembled?",
     text:
@@ -16,7 +17,7 @@ const faqs = [
     text:
       "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!"
   }
-];
+])
 
 function App() {
   return
