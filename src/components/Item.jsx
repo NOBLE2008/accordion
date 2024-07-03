@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 
-const Item = () => {
+const Item = (props) => {
     const [isOpen, setOpen] = useState(false)
   return (
-    <div className={`item ${isOpen ? 'open': ''}`}>
+    <div className={`item ${isOpen ? 'open': ''}`} onClick={() => {
+        setOpen(current => !current)
+    }}>
 
     </div>
   )

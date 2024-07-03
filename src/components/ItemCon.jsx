@@ -4,7 +4,7 @@ import Item from './Item'
 const ItemCon = ({faq, setFaqs}) => {
   return (
     <div className="accordion">
-      {faq.map(item => <Item faq={item}/>)}
+      {faq.map(item => <Item faq={item}, setFaqs={setFaqs}/>)}
     </div>
   )
 }
