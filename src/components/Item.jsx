@@ -10,6 +10,8 @@ const Item = (props) => {
     <p className='title'>{props.faq.title}</p>
     <p className='icon'>{isOpen ? '-' : '+'}</p>
 
+    {isOpen && <div className='content-box'>{props.faq.text}</div>}
+
     </div>
   )
 }
