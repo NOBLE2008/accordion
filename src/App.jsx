@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import ItemCon from "./components/ItemCon";
 
 const [faqs, setFaqs] = useState([
   {
@@ -17,7 +18,7 @@ const [faqs, setFaqs] = useState([
 ]);
 
 function App() {
-  return;
+  return <ItemCon faq={faqs} setFaqs={setFaqs}/>
 }
 
 export default App;

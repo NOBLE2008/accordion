@@ -1,4 +1,5 @@
 import React from 'react'
+import Item from './Item'
 
 const ItemCon = () => {
   return (
@@ -8,4 +9,4 @@ const ItemCon = () => {
   )
 }
 
-export default Item
+export default ItemCon
