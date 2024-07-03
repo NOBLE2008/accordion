@@ -6,6 +6,7 @@ const Item = (props) => {
     <div className={`item ${isOpen ? 'open': ''}`} onClick={() => {
         setOpen(current => !current)
     }}>
+    <p className='number'>{props.i <= 9 ? `0${props.i}`: `${props.i}`}</p>
 
     </div>
   )
