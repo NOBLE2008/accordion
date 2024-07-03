@@ -8,6 +8,7 @@ const Item = (props) => {
     }}>
     <p className='number'>{props.i <= 9 ? `0${props.i}`: `${props.i}`}</p>
     <p className='title'>{props.faq.title}</p>
+    <p className='icon'>{isOpen ? '-' : '+'}</p>
 
     </div>
   )
