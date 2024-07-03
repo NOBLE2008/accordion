@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Item = () => {
+    const [isOpen, setOpen] = useState(false)
   return (
-    <div className="item">
-        
+    <div className={`item ${isOpen ? 'open': ''}`}>
+
     </div>
   )
 }
