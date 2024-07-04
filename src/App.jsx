@@ -17,7 +17,7 @@ function App() {
       text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
     },
   ]);
-  return <ItemCon faq={faqs} setFaqs={setFaqs}/>
+  return <ItemCon faq={faqs} setFaqs={setFaqs} />;
 }
 
 export default App;
